@@ -88,10 +88,10 @@ namespace PlayEveryWare.EpicOnlineServices
         {
             if (s_platformSpecifics != null)
             {
-                throw new Exception(string.Format("Trying to set the EOSManagerPlatformSpecifics twice: {0} => {1}", 
-                    s_platformSpecifics.GetType().Name,
-                    platformSpecifics == null ? "NULL" : platformSpecifics.GetType().Name
-                ));
+                //throw new Exception(string.Format("Trying to set the EOSManagerPlatformSpecifics twice: {0} => {1}", 
+                //    s_platformSpecifics.GetType().Name,
+                //    platformSpecifics == null ? "NULL" : platformSpecifics.GetType().Name
+                //));
             }
             s_platformSpecifics = platformSpecifics;
         }
